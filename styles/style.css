@@ -25,6 +25,7 @@ body {
   color: #F5F5F5;
   font-family: 'Inter', "Arial", sans-serif;
   font-weight: 400;
+  width: 360px;
 }
 
 .content-section_theme_dark {
@@ -113,6 +114,7 @@ body {
   padding-right: 24px;
   display: flex;
   flex-direction: column;
+  color: #fff;
 }
 
  /* 2 - интро */
