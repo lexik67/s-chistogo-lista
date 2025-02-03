@@ -59,7 +59,7 @@ body {
 
  /* 1 - шапка */
 
-.header-nav {
+.header {
   display: flex;
   justify-content: space-between;
   font-family: 'Inter', "Arial", sans-serif;
@@ -69,7 +69,7 @@ body {
   min-height: 110px;
 }
 
-.header-logo {
+.header-logo__image {
   width: 78.45px;
   min-height: 15.43px;
 }
@@ -92,6 +92,8 @@ body {
   text-decoration: none;
   text-transform: none;
 }
+
+/* 2 - cover */
 
 .cover {
   padding-left: 0;
@@ -117,7 +119,7 @@ body {
   color: #fff;
 }
 
- /* 2 - интро */
+ /* 3 - интро */
 
  .intro {
   min-height: 100%;
@@ -155,7 +157,7 @@ body {
   margin-bottom: 24px;
 }
 
- /* 3 - причины белого листа */
+ /* 4 - причины белого листа */
 
 .reasons-scary-empty-list {
   font-size: 20pt;
@@ -195,7 +197,7 @@ body {
   letter-spacing: 0;
 }
 
- /* 4 - как начать делать */
+ /* 5 - как начать делать */
 
  .how-start-doing {
   margin-top: 40px;
@@ -273,7 +275,7 @@ body {
   color: #131313;
 }
 
-  /* 5 - подвал */
+/* 6 - подвал */
 
 .footer {
   display: flex;
