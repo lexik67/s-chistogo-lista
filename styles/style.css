@@ -99,12 +99,10 @@ body {
   margin-left: 20px;
   margin-right: 0;
   margin-bottom: 30px;
-  height: 221px;
 }
 
 .cover__title {
   font-family: 'EB Garamond', "Arial", sans-serif;
-  height: 221px;
   font-size: 72px;
   font-weight: 400;
   background-image: url(../images/cover.svg);
@@ -211,7 +209,6 @@ body {
   font-size: 28px;
   line-height: 115%;
   font-weight: 500;
-  min-height: 64px;
   padding: 0;
   margin-bottom: 32px;
   margin-left: 20px;
