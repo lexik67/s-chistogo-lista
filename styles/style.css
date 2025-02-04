@@ -1,0 +1,305 @@
+ /* обнуление стилей */
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+ /* общее */
+
+body {
+  background-color: #1e1e1e;
+  color: #F5F5F5;
+  font-family: 'Inter', "Arial", sans-serif;
+  font-weight: 400;
+  width: 360px;
+  margin: auto;
+}
+
+.content-section_theme_dark {
+  background-color: #1e1e1e;
+  color: #F5F5F5;
+}
+
+.content-section_theme_bright {
+  background-color: #FEE42A;
+  color: #131313;
+}
+
+.content-section {
+  width: 360px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+ /* 1 - шапка */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Inter', "Arial", sans-serif;
+  margin-top: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header-logo__image {
+  width: 78.45px;
+  min-height: 15.43px;
+}
+
+.header-menu .header-menu__list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.header-menu .header-menu__link {
+  font-size: 16px;
+  color: white;
+  line-height: 19.2px;
+  letter-spacing: 0;
+}
+
+.header-menu .header-menu__link_active {
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* 2 - cover */
+
+.cover {
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 95%;
+  padding-left: 0;
+  margin: 30px 0 15px 21px;
+  padding-bottom: 20px;
+}
+
+.cover__title {
+  font-family: 'EB Garamond', "Arial", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 100%;
+  padding-right: 24px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+ /* 3 - интро */
+
+ .intro {
+  min-height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+ .intro__heading {
+  display: flex;
+  font-size: 16px;
+  line-height: 120%;
+  margin-bottom: 24px;
+  justify-content: space-between;
+  color: #ccc;
+ }
+
+ .intro__title {
+  font-size: 16px;
+  width: 203px;
+  text-align: left;
+  font-weight: normal;
+ }
+
+ .intro__date {
+  width: 101px;
+ }
+
+.intro__main-text {
+  overflow-wrap: break-word;
+  font-size: 16px;
+  line-height: 21.6px;
+  margin-bottom: 37px;
+}
+
+.intro__main-paragraph {
+  margin-bottom: 24px;
+}
+
+ /* 4 - причины белого листа */
+
+.reasons-scary-empty-list {
+  font-size: 20pt;
+  min-height: 100%;
+  padding: 40px 20px 39px 20px;
+}
+
+.reasons-scary-empty-list__title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'EB Garamond', "Arial", sans-serif;
+  font-size: 28px;
+  line-height: 115%;
+  letter-spacing: 0%;
+  margin-bottom: 32px;
+}
+
+.reasons-scary-empty-list__text {
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0;
+  margin-bottom: 32px;
+}
+
+.list-reasons {
+  margin-left: 15px;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+
+.list-reasons .list-reasons__item {
+  margin-top: 16px;
+  display: list-item;
+  font-size: 16px;
+  line-height: 21.6px;
+  letter-spacing: 0;
+}
+
+ /* 5 - как начать делать */
+
+ .how-start-doing {
+  margin-top: 40px;
+  margin-bottom: 60px;
+ }
+
+ .how-start-doing__title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'EB Garamond', "Arial", sans-serif;
+  font-size: 28px;
+  line-height: 115%;
+  font-weight: 500;
+  padding: 0;
+  margin-bottom: 32px;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+ .how-start-doing__description {
+  font-size: 20px;
+  line-height: 135%;
+  letter-spacing: 0;
+  margin-bottom: 32px;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+ .list-cards {
+  margin-left: 20px;
+  margin-right: 21px;
+}
+
+ .card {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 30px;
+ }
+
+ .card-person-photo__img {
+  width: 100px;
+  min-height: 100px;
+  margin-bottom: 8px;
+  border-radius: 50%;
+ }
+
+ .card-person__name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 135%;
+  margin-bottom: 8px;
+ }
+
+ .card__title {
+  font-family: 'EB Garamond', "Arial", sans-serif;
+  font-size: 22px;
+  line-height: 135%;
+  font-weight: 500;
+  margin-bottom: 8px;
+ }
+
+ .card__text {
+  font-size: 16px;
+  line-height: 21.6px;
+  overflow-wrap: break-word;
+ }
+
+ .card_theme_dark {
+  background-color: #343434;
+  color: #F5F5F5;
+}
+
+.card_theme_bright {
+  background-color: #FEE42A;
+  color: #131313;
+}
+
+/* 6 - подвал */
+
+.footer {
+  display: flex;
+  border-top: 1px solid #FEE42A;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.copyright-logo {
+  font-size: 16px;
+  line-height: 135%;
+}
+
+.social-networks-menu {
+  display: flex;
+  font-size: 14px;
+  line-height: 135%;
+}
+
+.social-networks__list {
+  display: flex;
+  list-style: none;
+  column-gap: 16px;
+}
+
+.social-networks__link {
+  color: #F5F5F5;
+  text-decoration: none;
+}
